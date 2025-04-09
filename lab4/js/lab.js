@@ -1,21 +1,25 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// set up a black page
 
-// Constants
+// something to type in the color name
+  // maybe a window prompt
 
-// Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function chooseColor () {
+
+  let askColor = window.prompt("What color? ");
+  console.log (askColor);
+  $("BODY").css("background-color",  askColor ) ;
+  return askColor;
+
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
-// let's get this party started
-main();
+$("button").click(chooseColor);
+
+// change the p[age color accordin to the user input
+
+
+
+
+  // maybe random  color
+

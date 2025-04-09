@@ -7,3 +7,12 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+
+ .calculator {
+
+    border: 2px solid purple;
+    padding: 50px;
+    margin: 50px;
+
+  }

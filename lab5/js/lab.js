@@ -1,21 +1,39 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// calculator from section D
 
-// Constants
 
-// Functions
+// rectangle
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// numbers 0-9 for input arrays, prompt, 
+
+
+function userInput () {
+
+    let number;
+    number=window.prompt("please provide a number between 0 and 9");
+    console.log(number);
+    return number;
+
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+let numberFirst = userInput(); 
+let numberSecond = userInput(); 
 
-// let's get this party started
-main();
+console.log("numberFirst is " + numberFirst);
+console.log("numberSecond is " + numberSecond)
+
+results=numberFirst + numberSecond;
+
+$(".calculator").append(numberFirst + " * ");
+
+$(".calculator").append(numberSecond + " * ");
+
+$(".calculator").append(results);
+
+console.log(results); 
+
+// addition operation
+
+// output
+
+
+
